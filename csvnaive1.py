@@ -4,6 +4,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import metrics
 
 data = pd.read_csv('csvfile2.csv')
+print(data.head())
 
 X = data[['sweetness', 'curnchiness']]
 y = data['foodtype']
