@@ -1,6 +1,5 @@
 import numpy as np
-arr=np.array([[1,2,4],[5,6,7]])
-print("array elements:")
+arr=np.array([[2,5,8,10],[3,4,6,9]])
 print(arr)
 r=np.sum(arr)
 print("sum is:",r)

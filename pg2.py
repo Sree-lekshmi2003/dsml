@@ -1,6 +1,6 @@
 import numpy as np
-a=np.array([1,2,4])
-b=np.array([4,5,6])
+a=np.array([10,8,6,5])
+b=np.array([9,5,4,1])
 print(a)
 print(b)
 result=np.multiply(a,b)
